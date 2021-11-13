@@ -1,0 +1,199 @@
+
+body{
+    background-color: rgb(0, 24, 0);
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Banner */
+.bannerbox{
+    background-image:url(images/MDTTruckingBanner.png);
+    padding: 100px;
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+h1.bannerfont{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    
+}
+/* end of banner */
+/*Nav bar*/
+nav {
+    
+    background-color:rgb(5, 53, 29);
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: auto;
+    font-family: 'Lato', sans-serif;
+}
+
+
+nav li a{ 
+    float: right;
+    padding: 25px;
+    
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+
+nav li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(15, 70, 33);
+}
+
+img.logo{
+   margin: 0px;
+    height: 65px;
+    width: 65px;
+    position: absolute;
+    
+    margin-left: 10px;
+}
+
+.booknow{
+    border:rgb(5, 53, 29);
+    color: rgb(5, 53, 29);
+    background-color: rgb(41, 151, 50);
+    border-width: 0px;
+    border-style: solid;
+    border-radius:40px  0px  0px  40px;
+   
+    
+}
+.booknow:hover{
+    background-color: rgb(255, 255, 255);
+   
+}
+/* end of nav bar*/
+
+/* Homepage */
+
+.label{
+    background-color: rgb(15, 70, 33);
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    
+    margin: 0px;
+    text-align: center;
+
+}
+.label2{
+    background-color: rgb(15, 70, 33);
+    color:rgb(255, 255, 255);
+    font-size: 2em;
+    margin-top:  3em;
+    padding: 0em;
+    text-align: center;
+}
+.label3{
+    background-color: rgb(15, 70, 33);
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    margin-top: 1%;
+    margin-bottom: 0%;
+    
+    text-align: center;
+}
+
+
+.flexcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(15, 70, 33);
+   
+}
+.flexcontainer2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(15, 70, 33);
+}
+
+.fleximg{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px;
+   
+}
+
+.item1{
+    align-self: flex-start;
+    padding:1em;
+
+}
+.item2{
+    align-self: center;
+    padding:10px;
+    background-color: rgb(15,70,33, 0.2);
+    margin: 1%;
+}
+.item3{
+    align-self: center;
+    padding:10px;
+    background-color: rgb(15,70,33, 0.2);
+    margin: 1%;
+}
+
+.fontsize{
+    font-size: 2em;
+}
+.footer{
+    background-color: rgb(15, 70, 33);
+    color: white;
+    margin-top: 2em;
+}
+    
+.footercontainer{
+    display: flex;
+    
+}
+.footerphoto{
+    align-self: center;
+    
+}
+.footeralign{
+    align-self: center;
+    margin-left: 2em;
+    
+}
+
+/* End Homepage */
+/* About page */
+.label2{
+    background-color: rgb(15, 70, 33);
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    margin-top: 30px;
+    
+    text-align: center;
+}
+
+
+.centered{
+    background-color: rgb(15, 70, 33);
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    margin: 0%;
+    margin-top: 0.3%;
+    text-align: center;
+}
