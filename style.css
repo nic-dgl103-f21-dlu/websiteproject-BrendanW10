@@ -3,7 +3,10 @@ body{
     background-color: rgb(0, 24, 0);
     color: white;
     font-family: 'Lato', sans-serif;
+    
 }
+
+
 
 /* Banner */
 .bannerbox{
@@ -22,13 +25,26 @@ h1.bannerfont{
     font-size: 100px;
     text-align: center;
     font-family: 'Lato', sans-serif;
-    
+    animation-duration: 2s;
+    animation-name: slidein;
+   }
+@keyframes slidein {
+    from {
+        font-size: 0px;
+    }
+    to {
+        font-size: 100px;
+    }
 }
+
+
 /* end of banner */
 /*Nav bar*/
 nav {
     
     background-color:rgb(5, 53, 29);
+    
+
 }
 nav ul{
     margin: 0;
@@ -36,13 +52,15 @@ nav ul{
     list-style-type: none;
     overflow: auto;
     font-family: 'Lato', sans-serif;
+    
 }
 
 
 nav li a{ 
     float: right;
     padding: 25px;
-    
+    transition: all 0.2s ease-in-out;
+
     text-decoration: none;
     color:rgb(255, 255, 255);
 }
@@ -68,6 +86,8 @@ img.logo{
     border-width: 0px;
     border-style: solid;
     border-radius:40px  0px  0px  40px;
+    transition: all 0.2s ease-in-out;
+
    
     
 }
@@ -116,24 +136,27 @@ img.logo{
 }
 
 
+
 .flexcontainer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     border-width: 5px;
     border-style: solid;
     border-color: rgb(15, 70, 33);
+    align-items: center;
    
 }
 .flexcontainer2{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     border-width: 5px;
     border-style: solid;
     border-color: rgb(15, 70, 33);
+    align-items: center;
 }
 
 .fleximg{
@@ -148,6 +171,7 @@ img.logo{
 .item1{
     align-self: flex-start;
     padding:1em;
+    
 
 }
 .item2{
@@ -308,6 +332,8 @@ img.logo{
     outline: none;
     border: none;
     font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
 
 }
 .btn:hover{
@@ -324,13 +350,23 @@ img.logo{
     }
 }
 
+@media only screen and (max-width: 880px){
+    .flexcontainer{display:flex;}
+    .flexcontainer2{display: flex;}
+    
+}
+@media screen and (max-width: 400px){ 
+    
+   
+
+}
 /*Table */
 .styledtable{
     border-collapse: collapse;
     margin: 25px 0;
     font-size: 2em;
     min-width: 400px;
-    box-shadow: 0 0 20px rgba black;
+    box-shadow: 0 0 20px black;
     border: rgb(41, 151, 50);
     border-style: solid;
     border-radius: 10px;
@@ -354,3 +390,7 @@ img.logo{
     background-color: rgb(15, 70, 33);
 }
 
+.footerlogo{
+    width: 60px;
+    height: 40px;
+}
