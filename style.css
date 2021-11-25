@@ -358,11 +358,11 @@ img.logo{
     .flexcontainer2{display: flex;}
     
 }
-@media screen and (max-width: 400px){ 
-    
-   
 
-}
+    
+
+
+
 /*Table */
 .styledtable{
     border-collapse: collapse;
