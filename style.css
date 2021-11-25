@@ -344,7 +344,7 @@ img.logo{
     color: rgb(41, 151, 50);
 }
 
-@media screen and (max-width: 880px){
+@media screen and (max-width: 767px){
     .contact-box{
         grid-template-columns: 1fr;
     }
@@ -353,7 +353,7 @@ img.logo{
     }
 }
 
-@media only screen and (max-width: 880px){
+@media only screen and (max-width: 767px){
     .flexcontainer{display:flex;}
     .flexcontainer2{display: flex;}
     
